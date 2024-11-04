@@ -1,0 +1,116 @@
+/* ProfessorDashboard.css */
+
+.professor-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.professor-dashboard__heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.professor-dashboard__welcome-message {
+    font-size: 18px;
+}
+
+.professor-dashboard__professor-info {
+    font-size: 16px;
+}
+
+.professor-dashboard__header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.professor-dashboard__tabs {
+    display: flex;
+}
+
+.professor-dashboard__tab {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.professor-dashboard__active-tab {
+    background-color: #007bff;
+    color: white;
+}
+
+.professor-dashboard__logout-button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.professor-dashboard__error-message {
+    color: red;
+}
+
+.professor-dashboard__loading {
+    font-weight: bold;
+}
+
+.professor-dashboard__sub-heading {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.professor-dashboard__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.professor-dashboard__input,
+.professor-dashboard__textarea,
+.professor-dashboard__module-input,
+.professor-dashboard__module-textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.professor-dashboard__button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.professor-dashboard__add-button,
+.professor-dashboard__submit-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.professor-dashboard__add-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.professor-dashboard__submit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.professor-dashboard__course-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.professor-dashboard__course-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

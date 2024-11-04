@@ -1,0 +1,24 @@
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-area {
+    margin-bottom: 16px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 24px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header, .table-data {
+    padding: 8px;
+    border: 1px solid #ccc;
+}

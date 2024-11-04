@@ -1,0 +1,104 @@
+/* Register body styling with blue and white theme */
+.register-body {
+    background-color: #f0f4f8;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Container for the form */
+  .register-container {
+    max-width: 420px;
+    width: 100%;
+    padding: 40px 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .register-container:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Title of the form */
+  .register-title {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Input fields for form */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f8fafc;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #0073e6;
+    outline: none;
+  }
+  
+  /* Button for submission */
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #005bb5;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Error message */
+  .error-text {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Success message */
+  .success-text {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Custom select styling */
+  select.input-field {
+    appearance: none;
+    background-color: #f8fafc;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  select.input-field:focus {
+    border-color: #0073e6;
+    outline: none;
+  }
+  
